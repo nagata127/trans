@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+#main {
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+.image {
+    width:600px;
+    height: 350px;
+    border: solid 1px grey;
+    margin:5% auto 0;
+    padding:0 auto;
+    font-size: 20px;
+    position: relative;
+}
+
+.image img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.image p{
+    position: absolute;
+    color: gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.upload {
+    width: 50%;
+    margin: 3% auto;
+    padding: 0 auto;
+}
+
+.lang {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.lang button{
+    margin: 0 20px;
+}
+
+.text {
+    width: 600px;
+    margin: 0 auto 5%;
+    padding: auto;
+    background-color: #dcdcdc;
+}
+
+.tab-content {
+    border: solid 1px #dcdcdc;
+    height: 250px;
+    background-color: white;
+    overflow: scroll;
+}
+
+.tab-pane {
+    margin: 3%;
+}
